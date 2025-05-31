@@ -230,7 +230,7 @@ public class GestionDeGarantias {
         }
     }
 
-    // Convertir fecha del formato DD-MM-YYYY a dd/MM/yyyy (formato Guatemala)
+    // Convertir fecha del formato DD-MM-YYYY
     public static String convertirFechaGuatemalaDDMMYYYY(String fechaStr) {
         try {
             DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
